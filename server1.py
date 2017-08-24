@@ -16,3 +16,5 @@ while True:
     print('Received from %s:%s.' % addr)
     reply = 'Hello, %s!' % data.decode('utf-8')
     s.sendto(reply.encode('utf-8'), addr)
+
+#k===============
